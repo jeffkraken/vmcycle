@@ -1,6 +1,6 @@
 #this is an early version of the script written in a notebook while on vacation, updates will be made as time allows#
 get-vm
-$vm = read-host "Which VM?"
+$vm = read-host "Which VM? (respond with specific VM name)"
 $action = read host "What action? (start / stop)"
 if($action -eq "start")
 {
