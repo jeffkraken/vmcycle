@@ -19,3 +19,4 @@ stop-vm $vm
 else
 {write-host "No action performed. Check your spelling and try again later.
 }
+#add a loop to allow for multiple actions#
